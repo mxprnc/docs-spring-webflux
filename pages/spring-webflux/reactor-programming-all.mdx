@@ -712,7 +712,7 @@ public abstract class Flux<T> implements CorePublisher<T> {
   - 예를 들면 [BaseSubscriber](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/BaseSubscriber.html) 같은 Subscriber 를 인자로 전달하거나, 비즈니스 로직에 따라 특수하게 [BaseSubscriber](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/BaseSubscriber.html) 를 별도로 확장(extends)한 커스텀한 Subscriber 를 넘겨줘서 subscribe 하는 경우도 있습니다.
   - [BaseSubscriber](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/BaseSubscriber.html) 는 project reactor 에서 제공하는 배압관리를 위해 필요한 것들이 잘 갖춰져 있는 클래스입니다.
   - 이때 Subscriber 는 subscription 을 Publisher 로부터 전달 받습니다. 그리고 이 subscription 객체를 이용해서 request를 통해서 backpressure 를 조절하거나, cancel 을 통해서 연결 종료할 수 있습니다.
-  - Subscriber 를 직접 작성할 경우에 어떻게 작성하는지 궁금하시다면 [Publisher, Subscriber, Supscription, Backpressure 문서](https://chagchagchag.github.io/docs-spring-webflux/reactive-programming/publisher-subscriber-subscription-backpressure/) 를 참고해주시기 바랍니다.
+  - Subscriber 를 직접 작성할 경우에 어떻게 작성하는지 궁금하시다면 [Publisher, Subscriber, Supscription, Backpressure 문서](https://mxprnc.github.io/docs-spring-webflux/reactive-programming/publisher-subscriber-subscription-backpressure/) 를 참고해주시기 바랍니다.
 
 <br/>
 

@@ -14,7 +14,7 @@
 
 ## 예제 코드
 
-- [github](https://github.com/chagchagchag/webflux-mongo-mysql-redis/tree/main/demo-reactive-streams/src/main/java/io/chagchagchag/example/foobar/reactive_streams/publisher_subscriber/n_sized_message)
+- [github](https://github.com/mxprnc/webflux-mongo-mysql-redis/tree/main/demo-reactive-streams/src/main/java/io/chagchagchag/example/foobar/reactive_streams/publisher_subscriber/n_sized_message)
 
 <br/>
 
@@ -96,7 +96,7 @@ Cold Publisher 는 subscribe 를 하는 순간부터 stream 이벤트가 시작�
 
 ## e.g Publisher, Subscriber, Subscription 예제
 
-> 예제 코드는 [github](https://github.com/chagchagchag/webflux-mongo-mysql-redis/tree/main/demo-reactive-streams/src/main/java/io/chagchagchag/example/foobar/reactive_streams/publisher_subscriber/n_sized_message) 에 남겨두었습니다.
+> 예제 코드는 [github](https://github.com/mxprnc/webflux-mongo-mysql-redis/tree/main/demo-reactive-streams/src/main/java/io/chagchagchag/example/foobar/reactive_streams/publisher_subscriber/n_sized_message) 에 남겨두었습니다.
 
 간단한 메시지를 Publisher 에서 발행하고, Subscription 내에는 executorService 를 통해서 동시성제어를 수행하고 Subscriber 는 Publisher 가 만든 Subscription 객체를 이용해 지속적으로 `request()` 함수를 호출하는 예제입니다. <br/>
 
